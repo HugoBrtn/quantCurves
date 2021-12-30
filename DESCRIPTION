@@ -1,0 +1,18 @@
+Package: quantCurves
+Title: Estimate quantile curves
+Version: 0.0.0.9000
+Author: Sandie Ferrigno, Essaket Dounia, Mouchot Arthur, Breton Hugo
+Maintainer: Hugo Breton <hugo.breton7@etu.univ-lorraine.fr>
+Description: Estimate quantile curves with non-parametric methods : local normal regression, polynomial local regression and penalized cubic B-splines regression.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    graphics,
+    KernSmooth,
+    locpol,
+    np,
+    quantreg,
+    quantregGrowth,
+    stats
